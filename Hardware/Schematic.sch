@@ -2733,7 +2733,6 @@ Boot / IO Button</text>
 </instance>
 <instance part="J2" gate="G$1" x="17.78" y="218.44" smashed="yes">
 <attribute name="NAME" x="24.13" y="223.52" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="39.37" y="223.52" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND1" gate="1" x="-2.54" y="213.36" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-5.08" y="215.9" size="1.778" layer="96" rot="R270"/>
@@ -2760,7 +2759,6 @@ Boot / IO Button</text>
 </instance>
 <instance part="PFMF.050.1" gate="G$1" x="2.54" y="226.06" smashed="yes">
 <attribute name="NAME" x="-2.54" y="229.87" size="1.778" layer="95"/>
-<attribute name="VALUE" x="0" y="219.71" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="114.3" y="218.44" smashed="yes" rot="R180">
 <attribute name="DETAILS" x="109.22" y="228.6" size="2.1844" layer="96" rot="R180"/>
@@ -3189,7 +3187,6 @@ Boot / IO Button</text>
 </instance>
 <instance part="RESET_BUTTON" gate="G$1" x="236.22" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="231.394" y="71.12" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="239.014" y="73.66" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="R_RESET" gate="G$1" x="238.76" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="242.3414" y="87.63" size="1.778" layer="95" rot="R90"/>
@@ -3207,7 +3204,6 @@ Boot / IO Button</text>
 </instance>
 <instance part="CHANGE_BUTTON" gate="G$1" x="276.86" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="272.034" y="73.66" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="279.654" y="73.66" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="R_CHANGE" gate="G$1" x="279.4" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="282.9814" y="87.63" size="1.778" layer="95" rot="R90"/>
@@ -3225,7 +3221,6 @@ Boot / IO Button</text>
 </instance>
 <instance part="BOOT_BUTTON" gate="G$1" x="259.08" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="254.254" y="73.66" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="261.874" y="73.66" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="R_BOOT" gate="G$1" x="261.62" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="265.2014" y="87.63" size="1.778" layer="95" rot="R90"/>
@@ -3249,7 +3244,6 @@ Boot / IO Button</text>
 <instance part="L1" gate="A" x="48.26" y="157.48" smashed="yes">
 <attribute name="NAME" x="52.4302" y="160.8201" size="3.48" layer="95" ratio="10"/>
 <attribute name="VALOARE" x="53.34" y="154.94" size="1.778" layer="96"/>
-<attribute name="VALUE" x="46.2819" y="153.2001" size="3.48" layer="96" ratio="10"/>
 </instance>
 <instance part="C4" gate="G$1" x="73.66" y="152.4" smashed="yes">
 <attribute name="NAME" x="75.184" y="152.781" size="1.778" layer="95"/>
