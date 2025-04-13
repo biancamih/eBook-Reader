@@ -196,3 +196,6 @@ Sistemul este bazat pe microcontrollerul **ESP32-C6-WROOM-1**, cu conectivitate 
 - GPIO suplimentare (ex. IO19, IO20) pot fi folosite pentru controlul alimentării modulelor (e.g., enable pin pe SD/e-paper).
 - Se folosesc pinii **de jos (IO0–IO13)** pentru compatibilitate cu bootloader-ul și SPI flash extern.
 
+## Randare PCB
+![PCB](Images/PCB.png)
+
