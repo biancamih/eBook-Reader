@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -686,7 +686,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <wire x1="0.9" y1="-2.1" x2="0.9" y2="-1.45" width="0.127" layer="21"/>
 <wire x1="-0.9" y1="-2.1" x2="0.9" y2="-2.1" width="0.127" layer="21"/>
 </package>
-<package name="SOD3716X135N" library_version="26">
+<package name="SOD3716X135N" library_version="33">
 <description>&lt;b&gt;SOD-123 CASE425-04 ISSUE G&lt;/b&gt;&lt;br&gt;
 </description>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
@@ -1544,7 +1544,7 @@ Switches electrical signals</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ESP32_WROVER_FRAMES_A3L-LOC" prefix="FRAME" uservalue="yes" library_version="31">
+<deviceset name="ESP32_WROVER_FRAMES_A3L-LOC" prefix="FRAME" uservalue="yes" library_version="34">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
@@ -1558,7 +1558,7 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SAMACSYS_PARTS_USB4110-GF-A" prefix="J" library_version="31">
+<deviceset name="SAMACSYS_PARTS_USB4110-GF-A" prefix="J" library_version="34">
 <description>&lt;b&gt;CONN USB 2.0 TYPE-C R/A SMT&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1603,7 +1603,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" prefix="GND" library_version="31">
+<deviceset name="GND" prefix="GND" library_version="34">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
@@ -1616,7 +1616,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_R" prefix="R" uservalue="yes" library_version="31">
+<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_R" prefix="R" uservalue="yes" library_version="34">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_EAGLE-LTSPICE_R" x="0" y="0"/>
@@ -1636,7 +1636,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32C6_VARISTOR" prefix="R" library_version="31">
+<deviceset name="ESP32C6_VARISTOR" prefix="R" library_version="34">
 <description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_VARISTOR_VARISTOR" x="0" y="0"/>
@@ -1655,7 +1655,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="USBLC6-2SC6Y" prefix="D" library_version="31">
+<deviceset name="USBLC6-2SC6Y" prefix="D" library_version="34">
 <description>&lt;b&gt;Low Cap. ESD Protection Auto SOT-23-6 STMicroelectronics USBLC6-2SC6Y, Dual Uni-Directional TVS Diode Array, 6-Pin SOT-23&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.pdf"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -1686,7 +1686,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_C" prefix="C" uservalue="yes" library_version="31">
+<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_C" prefix="C" uservalue="yes" library_version="34">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_EAGLE-LTSPICE_C" x="0" y="0"/>
@@ -1706,7 +1706,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="SJ" prefix="SJ" uservalue="yes" library_version="31">
+<deviceset name="SJ" prefix="SJ" uservalue="yes" library_version="34">
 <description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="SJ" x="0" y="0"/>
@@ -1725,7 +1725,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" prefix="Q" library_version="31">
+<deviceset name="ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" prefix="Q" library_version="34">
 <description>&lt;h3&gt;P-channel MOSFETs&lt;/h3&gt;
 &lt;p&gt;Voltage controlled devices that allow control of high current outputs.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
@@ -1752,7 +1752,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="RCL_CPOL-EU" prefix="C" uservalue="yes" library_version="31">
+<deviceset name="RCL_CPOL-EU" prefix="C" uservalue="yes" library_version="34">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="RCL_CPOL" x="0" y="0"/>
@@ -1772,7 +1772,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="EAGLE-LTSPICE_C" prefix="C" uservalue="yes" library_version="31">
+<deviceset name="EAGLE-LTSPICE_C" prefix="C" uservalue="yes" library_version="34">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="EAGLE-LTSPICE_C" x="0" y="0"/>
@@ -1792,7 +1792,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0" prefix="D" library_version="31">
+<deviceset name="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0" prefix="D" library_version="34">
 <description>Schottky Barrier Rectifier Diode</description>
 <gates>
 <gate name="G$0" symbol="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0" x="0" y="0"/>
@@ -1823,7 +1823,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="XC6220A331MR-G" prefix="IC" library_version="31">
+<deviceset name="XC6220A331MR-G" prefix="IC" library_version="34">
 <description>&lt;b&gt;LDO Voltage Regulators&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1853,7 +1853,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="3V3-CIRCLE" prefix="SUPPLY" uservalue="yes" library_version="31">
+<deviceset name="3V3-CIRCLE" prefix="SUPPLY" uservalue="yes" library_version="34">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;  3.3 Volt (3V3) Circle</description>
 <gates>
 <gate name="G$1" symbol="3V3-CIRCLE" x="0" y="0"/>
@@ -1869,7 +1869,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="112A-TAAR-R03_ATTEND" prefix="J" library_version="31">
+<deviceset name="112A-TAAR-R03_ATTEND" prefix="J" library_version="34">
 <description>&lt;b&gt;Micro SD Card Socket, Push-Push Type, Top Mount, SMT, H=1.83mm, 10u&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1910,7 +1910,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32-C6-WROOM-1-N8" prefix="U" library_version="31">
+<deviceset name="ESP32-C6-WROOM-1-N8" prefix="U" library_version="34">
 <description> &lt;a href="https://pricing.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif%20Systems/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="ESP32-C6-WROOM-1-N8" x="0" y="0"/>
@@ -1961,7 +1961,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX17048G+T10" prefix="U" library_version="31">
+<deviceset name="MAX17048G+T10" prefix="U" library_version="34">
 <description> &lt;a href="https://pricing.snapeda.com/parts/MAX17048G%2BT10/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX17048G+T10" x="0" y="0"/>
@@ -1995,7 +1995,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="W25Q512JVEIQ" prefix="U" library_version="31">
+<deviceset name="W25Q512JVEIQ" prefix="U" library_version="34">
 <description> &lt;a href="https://pricing.snapeda.com/parts/W25Q512JVEIQ/Winbond%20Electronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="W25Q512JVEIQ" x="0" y="0"/>
@@ -2028,7 +2028,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="PGB1010603MR" prefix="D" library_version="31">
+<deviceset name="PGB1010603MR" prefix="D" library_version="34">
 <description> &lt;a href="https://pricing.snapeda.com/parts/PGB1010603MR/Littelfuse%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="PGB1010603MR-1" x="0" y="0"/>
@@ -2055,7 +2055,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="QWIIC_CONNECTOR" prefix="J" uservalue="yes" library_version="31">
+<deviceset name="QWIIC_CONNECTOR" prefix="J" uservalue="yes" library_version="34">
 <description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector&lt;/h3&gt;
 An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href=”http://www.sparkfun.com/qwiic”&gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.
 
@@ -2082,7 +2082,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP" prefix="TP" library_version="31">
+<deviceset name="TP" prefix="TP" library_version="34">
 <description>&lt;b&gt;Test pad&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
@@ -2101,7 +2101,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="DS3231SN#" prefix="U" library_version="31">
+<deviceset name="DS3231SN#" prefix="U" library_version="34">
 <description>Real Time Clock Serial 16-Pin SOIC W T/R     &lt;a href="https://pricing.snapeda.com/parts/DS3231SN%23/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="A" symbol="DS3231SN#" x="0" y="0"/>
@@ -2134,7 +2134,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPH3225A" prefix="C" library_version="31">
+<deviceset name="CPH3225A" prefix="C" library_version="34">
 <description>Cap 0.011F 3.3V 1210 Flat &lt;a href="https://pricing.snapeda.com/parts/CPH3225A/Seiko%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CPH3225A" x="0" y="0"/>
@@ -2161,7 +2161,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="FH34SRJ-24S-0.5SH_99_" prefix="J" library_version="31">
+<deviceset name="FH34SRJ-24S-0.5SH_99_" prefix="J" library_version="34">
 <description>&lt;b&gt;24 Position FFC, FPC Connector Contacts, Top and Bottom 0.020" (0.50mm) Surface Mount, Right Angle&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-1255-6-99&amp;productname=FH34SRJ-24S-0.5SH(99)&amp;series=FH34SRJ&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=0000990903"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -2212,7 +2212,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_BME680_BME680" prefix="U" library_version="31">
+<deviceset name="ESP32_WROVER_BME680_BME680" prefix="U" library_version="34">
 <description>Integrated Environmental Unit</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_BME680_BME680" x="0" y="0"/>
@@ -2241,7 +2241,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD5229G-TR" prefix="IC" library_version="31">
+<deviceset name="BD5229G-TR" prefix="IC" library_version="34">
 <description>&lt;b&gt;Voltage Detector with Adjustable Delay Time: CMOS processes are utilized to develop high precision, low current consumption CMOS reset ICs that allow arbitrary setting of the delay time. The extensive lineup includes both Nch Open Drain and CMOS output types in a wide range of detection voltages (from 2.3V to 6.0V, in 0.1V steps), enabling selection of the ideal solution based on customer requirements. In addition, the entire series is of course both lead-free and RoHS-compliant.&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/f2b9741ef86007909f138d561a359946.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -2271,7 +2271,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUTTON_CUSYOMV1" library_version="31">
+<deviceset name="BUTTON_CUSYOMV1" library_version="34">
 <gates>
 <gate name="G$1" symbol="MYBUTTON" x="0" y="0"/>
 </gates>
@@ -2289,7 +2289,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="MBR0530" prefix="D" library_version="31">
+<deviceset name="MBR0530" prefix="D" library_version="34">
 <description>&lt;b&gt;ON SEMICONDUCTOR - MBR0530 - DIODE, SCHOTTKY, 0.5A, 30V, SOD-123&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/MBR0530/ON%20Semiconductor/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -2317,7 +2317,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="744043680" prefix="L" library_version="31">
+<deviceset name="744043680" prefix="L" library_version="34">
 <gates>
 <gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
 </gates>
@@ -2337,7 +2337,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI1308EDL-T1-GE3" prefix="Q" library_version="31">
+<deviceset name="SI1308EDL-T1-GE3" prefix="Q" library_version="34">
 <description>&lt;b&gt;MOSFET N-Ch 30V 1.5A TrenchFET SC70 Vishay Si1308EDL-T1-GE3 N-channel MOSFET Transistor, 1.5 A, 30 V, 3-Pin SC-70&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-GE3.pdf"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay%20Siliconix/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -2366,7 +2366,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831" prefix="U" library_version="31">
+<deviceset name="ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831" prefix="U" library_version="34">
 <description>&lt;h3&gt;MCP73831T Li-Ion, Li-Pol Controller&lt;/h3&gt;
 &lt;p&gt;Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller
 &lt;li&gt;&lt;a href=”http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;
@@ -2394,7 +2394,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADAFRUIT_LED" prefix="LED" uservalue="yes" library_version="31">
+<deviceset name="ADAFRUIT_LED" prefix="LED" uservalue="yes" library_version="34">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -2762,20 +2762,18 @@ Boot / IO Button</text>
 </instance>
 <instance part="D1" gate="G$1" x="114.3" y="218.44" smashed="yes" rot="R180">
 <attribute name="DETAILS" x="109.22" y="228.6" size="2.1844" layer="96" rot="R180"/>
-<attribute name="NUME" x="91.44" y="231.14" size="2.1844" layer="96" rot="R180"/>
-<attribute name="NAME" x="85.09" y="210.82" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="85.09" y="213.36" size="1.778" layer="96" rot="R180" align="center-left"/>
+<attribute name="NUME" x="90.678" y="231.394" size="2.1844" layer="96" rot="R180"/>
 </instance>
 <instance part="GND6" gate="1" x="119.38" y="220.98" smashed="yes" rot="R90">
 <attribute name="VALUE" x="121.92" y="218.44" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C4_USB" gate="G$1" x="104.14" y="203.2" smashed="yes">
 <attribute name="NAME" x="108.204" y="195.961" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="100.584" y="198.501" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="101.854" y="198.501" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C5_USB" gate="G$1" x="114.3" y="203.2" smashed="yes">
 <attribute name="NAME" x="118.364" y="195.961" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="110.744" y="198.501" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="111.76" y="198.755" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND7" gate="1" x="109.22" y="190.5" smashed="yes">
 <attribute name="VALUE" x="106.68" y="187.96" size="1.778" layer="96"/>
@@ -2802,7 +2800,7 @@ Boot / IO Button</text>
 <attribute name="DETAILS" x="160.02" y="218.44" size="1.6764" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="223.52" y="200.66" smashed="yes">
-<attribute name="NAME" x="222.123" y="196.0626" size="1.778" layer="95" rot="R270"/>
+<attribute name="NAME" x="221.361" y="196.5706" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="227.203" y="190.9826" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C1_BAT1" gate="G$1" x="167.64" y="200.66" smashed="yes">
@@ -3057,11 +3055,11 @@ Boot / IO Button</text>
 </instance>
 <instance part="J1" gate="G$1" x="60.96" y="118.11" smashed="yes" rot="MR0">
 <attribute name="NAME" x="44.45" y="123.19" size="1.778" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="39.37" y="123.19" size="1.778" layer="96" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="57.658" y="86.36" size="1.778" layer="96" rot="MR270" align="center-left"/>
 </instance>
 <instance part="EPD_C1" gate="G$1" x="10.16" y="67.31" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.779" y="66.294" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="18.669" y="66.294" size="1.27" layer="96" rot="R180"/>
+<attribute name="VALUE" x="19.177" y="66.294" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C2" gate="G$1" x="17.78" y="69.85" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.399" y="71.374" size="1.27" layer="95" rot="R180"/>
@@ -3072,8 +3070,8 @@ Boot / IO Button</text>
 <attribute name="VALUE" x="21.209" y="96.774" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C12" gate="G$1" x="7.62" y="118.11" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.399" y="119.634" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="16.129" y="117.094" size="1.27" layer="96" rot="R180"/>
+<attribute name="NAME" x="17.653" y="119.634" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="16.383" y="117.094" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="EPD_C11" gate="G$1" x="17.78" y="115.57" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.559" y="117.094" size="1.27" layer="95" rot="R180"/>
@@ -3274,43 +3272,43 @@ Boot / IO Button</text>
 <instance part="GND39" gate="1" x="96.52" y="165.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="99.06" y="162.56" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="MCP73831" gate="G$1" x="195.58" y="165.1" smashed="yes">
-<attribute name="NAME" x="187.96" y="170.688" size="1.778" layer="95"/>
-<attribute name="VALUE" x="187.96" y="157.48" size="1.778" layer="96"/>
+<instance part="MCP73831" gate="G$1" x="198.12" y="164.084" smashed="yes">
+<attribute name="NAME" x="190.5" y="169.672" size="1.778" layer="95"/>
+<attribute name="VALUE" x="190.5" y="156.464" size="1.778" layer="96"/>
 </instance>
-<instance part="CHG_LED" gate="G$1" x="172.72" y="154.94" smashed="yes">
-<attribute name="NAME" x="176.276" y="150.368" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="178.435" y="150.368" size="1.778" layer="96" rot="R90"/>
+<instance part="CHG_LED" gate="G$1" x="175.26" y="153.924" smashed="yes">
+<attribute name="NAME" x="178.816" y="149.352" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="180.975" y="149.352" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1_BAT" gate="G$1" x="160.02" y="157.48" smashed="yes">
-<attribute name="NAME" x="161.544" y="157.861" size="1.778" layer="95"/>
-<attribute name="VALUE" x="161.544" y="152.781" size="1.778" layer="96"/>
+<instance part="C1_BAT" gate="G$1" x="162.56" y="156.464" smashed="yes">
+<attribute name="NAME" x="164.084" y="156.845" size="1.778" layer="95"/>
+<attribute name="VALUE" x="164.084" y="151.765" size="1.778" layer="96"/>
 </instance>
-<instance part="C2_BAT" gate="G$1" x="231.14" y="154.94" smashed="yes">
-<attribute name="NAME" x="232.664" y="155.321" size="1.778" layer="95"/>
-<attribute name="VALUE" x="232.664" y="150.241" size="1.778" layer="96"/>
+<instance part="C2_BAT" gate="G$1" x="233.68" y="153.924" smashed="yes">
+<attribute name="NAME" x="235.204" y="154.305" size="1.778" layer="95"/>
+<attribute name="VALUE" x="235.204" y="149.225" size="1.778" layer="96"/>
 </instance>
-<instance part="R2_BAT" gate="G$1" x="218.44" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="216.9414" y="148.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="221.742" y="148.59" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="216.9414" y="148.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="221.742" y="148.59" size="1.778" layer="96" rot="R90"/>
+<instance part="R2_BAT" gate="G$1" x="220.98" y="151.384" smashed="yes" rot="R90">
+<attribute name="NAME" x="219.4814" y="147.574" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="224.282" y="147.574" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="219.4814" y="147.574" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="224.282" y="147.574" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1_BAT" gate="G$1" x="182.88" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="186.4614" y="148.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="181.102" y="151.13" size="1.778" layer="96" rot="R90"/>
+<instance part="R1_BAT" gate="G$1" x="185.42" y="151.384" smashed="yes" rot="R90">
+<attribute name="NAME" x="189.0014" y="147.574" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="183.642" y="150.114" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND40" gate="1" x="160.02" y="142.24" smashed="yes">
-<attribute name="VALUE" x="157.48" y="139.7" size="1.778" layer="96"/>
+<instance part="GND40" gate="1" x="162.56" y="141.224" smashed="yes">
+<attribute name="VALUE" x="160.02" y="138.684" size="1.778" layer="96"/>
 </instance>
-<instance part="GND41" gate="1" x="208.28" y="142.24" smashed="yes">
-<attribute name="VALUE" x="205.74" y="139.7" size="1.778" layer="96"/>
+<instance part="GND41" gate="1" x="210.82" y="141.224" smashed="yes">
+<attribute name="VALUE" x="208.28" y="138.684" size="1.778" layer="96"/>
 </instance>
-<instance part="GND42" gate="1" x="218.44" y="142.24" smashed="yes">
-<attribute name="VALUE" x="215.9" y="139.7" size="1.778" layer="96"/>
+<instance part="GND42" gate="1" x="220.98" y="141.224" smashed="yes">
+<attribute name="VALUE" x="218.44" y="138.684" size="1.778" layer="96"/>
 </instance>
-<instance part="GND43" gate="1" x="231.14" y="142.24" smashed="yes">
-<attribute name="VALUE" x="228.6" y="139.7" size="1.778" layer="96"/>
+<instance part="GND43" gate="1" x="233.68" y="141.224" smashed="yes">
+<attribute name="VALUE" x="231.14" y="138.684" size="1.778" layer="96"/>
 </instance>
 <instance part="TP11" gate="G$1" x="134.62" y="-2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="135.89" y="-3.81" size="1.778" layer="95" rot="R180"/>
@@ -3710,23 +3708,23 @@ Boot / IO Button</text>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="152.4" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="151.384" x2="162.56" y2="143.764" width="0.1524" layer="91"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 <pinref part="C1_BAT" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="205.74" y1="162.56" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="162.56" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="161.544" x2="210.82" y2="161.544" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="161.544" x2="210.82" y2="143.764" width="0.1524" layer="91"/>
 <pinref part="GND41" gate="1" pin="GND"/>
 <pinref part="MCP73831" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
-<wire x1="218.44" y1="147.32" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="146.304" x2="220.98" y2="143.764" width="0.1524" layer="91"/>
 <pinref part="GND42" gate="1" pin="GND"/>
 <pinref part="R2_BAT" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="149.86" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="148.844" x2="233.68" y2="143.764" width="0.1524" layer="91"/>
 <pinref part="GND43" gate="1" pin="GND"/>
 <pinref part="C2_BAT" gate="G$1" pin="2"/>
 </segment>
@@ -3849,14 +3847,14 @@ Boot / IO Button</text>
 <pinref part="Q1" gate="G$1" pin="G"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="167.64" x2="172.72" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="167.64" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="167.64" x2="160.02" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="167.64" x2="160.02" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="91"/>
-<label x="152.4" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-<junction x="172.72" y="167.64"/>
-<junction x="160.02" y="167.64"/>
+<wire x1="187.96" y1="166.624" x2="175.26" y2="166.624" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="166.624" x2="175.26" y2="156.464" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="166.624" x2="162.56" y2="166.624" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="166.624" x2="162.56" y2="159.004" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="166.624" x2="154.94" y2="166.624" width="0.1524" layer="91"/>
+<label x="154.94" y="166.624" size="1.27" layer="95" rot="R180" xref="yes"/>
+<junction x="175.26" y="166.624"/>
+<junction x="162.56" y="166.624"/>
 <pinref part="C1_BAT" gate="G$1" pin="1"/>
 <pinref part="CHG_LED" gate="G$1" pin="A"/>
 <pinref part="MCP73831" gate="G$1" pin="VIN"/>
@@ -4090,11 +4088,11 @@ Boot / IO Button</text>
 <pinref part="TP3" gate="G$1" pin="TP"/>
 </segment>
 <segment>
-<wire x1="205.74" y1="167.64" x2="231.14" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="167.64" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="167.64" x2="246.38" y2="167.64" width="0.1524" layer="91"/>
-<junction x="231.14" y="167.64"/>
-<label x="246.38" y="167.64" size="1.27" layer="95" xref="yes"/>
+<wire x1="208.28" y1="166.624" x2="233.68" y2="166.624" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="166.624" x2="233.68" y2="156.464" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="166.624" x2="248.92" y2="166.624" width="0.1524" layer="91"/>
+<junction x="233.68" y="166.624"/>
+<label x="248.92" y="166.624" size="1.27" layer="95" xref="yes"/>
 <pinref part="C2_BAT" gate="G$1" pin="1"/>
 <pinref part="MCP73831" gate="G$1" pin="VBAT"/>
 </segment>
@@ -4710,31 +4708,31 @@ Boot / IO Button</text>
 <junction x="73.66" y="144.78"/>
 <junction x="68.58" y="157.48"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="D5" gate="G$1" pin="A"/>
 <pinref part="L1" gate="A" pin="1"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$6" class="2">
 <segment>
-<wire x1="185.42" y1="162.56" x2="182.88" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="162.56" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="161.544" x2="185.42" y2="161.544" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="161.544" x2="185.42" y2="156.464" width="0.1524" layer="91"/>
 <pinref part="R1_BAT" gate="G$1" pin="2"/>
 <pinref part="MCP73831" gate="G$1" pin="STAT"/>
 </segment>
 </net>
 <net name="N$8" class="2">
 <segment>
-<wire x1="182.88" y1="147.32" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="142.24" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="146.304" x2="185.42" y2="141.224" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="141.224" x2="175.26" y2="141.224" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="141.224" x2="175.26" y2="148.844" width="0.1524" layer="91"/>
 <pinref part="R1_BAT" gate="G$1" pin="1"/>
 <pinref part="CHG_LED" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$17" class="2">
 <segment>
-<wire x1="205.74" y1="165.1" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="165.1" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="164.084" x2="220.98" y2="164.084" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="164.084" x2="220.98" y2="156.464" width="0.1524" layer="91"/>
 <pinref part="R2_BAT" gate="G$1" pin="2"/>
 <pinref part="MCP73831" gate="G$1" pin="PROG"/>
 </segment>
